@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+.embedVideo {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    
+    
+    .ajfrejm {  
+        overflow:hidden;
+        overflow-x:hidden;
+        overflow-y:hidden;
+        position: fixed;
+        transform: scale(1.5);
+        z-index: -99;
+    }
+}
+
+.huuuge-greeting {
+    font-style: 'Nunito';
+    font-size: 100px;
+    text-align: center;
+    color: ghostwhite;
+    //margin-top: 100px;
+    //position: absolute;
+   
+    margin-bottom: 20px;
+    p {
+        margin-top: 200px;
+      // display: inline; 
+       width: 400px;
+       margin: 0 auto;
+    }
+}
+
+.home-main-text {
+    font-style: 'Nunito';
+    font-size: 40px;
+    text-align: center;
+    color: white;
+
+    p {
+        
+        width: 400px;
+        margin: 0 auto; 
+    }
+}
+
+
+.resolutionBox {
+    overflow: hidden;    
+    float: right;
+    margin-top: 0;
+    margin-right: 25px;
+    p {
+        font-size: 15px;
+        color: white;
+    }
+}
+
+
+.weather {
+    float: left;
+    margin: 25px 0px 0px 25px;
+    
+    h1 {
+        color: white;
+        font-size: 15px;
+        margin: 0;
+
+        p {
+            font-size: 20px;
+            font-style: bold;
+            display: inline;
+        }
+
+        span {
+            font-size: 40px;
+        }
+        
+        img {
+            position: relative;
+            top: 20px;
+        }
+
+        .weather-icons {
+            height: 40px;
+            width: 40px;
+            position: inherit;
+        }
+
+    }
+}
+
+button {
+    float: left;
+}

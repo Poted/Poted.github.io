@@ -1,0 +1,45 @@
+ 
+    <div class="embedVideo">
+        
+            <iframe class="ajfrejm" 
+                frameborder="0"
+                height="100%" width="100%"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                src="https://youtube.com/embed/To73VSgWXjw?autoplay=1&controls=0&showinfo=0&autohide=1&mute=1&loop=1&playlist=To73VSgWXjw">
+            </iframe>
+        
+    </div>
+     
+    <div class="resolutionBox">
+        <p>Your resulution:</p>
+        <p>width: {{ width }}</p>
+        <p>height: {{ height }}</p>
+    </div>
+<!--
+    <button type="button" (click)="showWeather()">Weather in Cracow!</button>
+-->
+
+    <div class="weather" *ngIf="show">
+            <h1>Weather in: <br><span>Kraków</span></h1>
+            <h1><img class="weather-icons" src="./assets/cloudiness.png"> Cloudiness: <p>{{ this.weather?.weather[0].description }}</p> <img src="{{ source }}"></h1>
+            <h1><img class="weather-icons" src="./assets/temperature.svg"> Temperature: {{ this.weather?.main.temp }}°C</h1>
+            <h1><img class="weather-icons" src="./assets/humidity.png"> Humidity: {{ this.weather?.main.humidity }}%</h1>
+            <h1><img class="weather-icons" src="./assets/wind.svg"> Wind: {{ this.weather?.wind.speed }} m/s</h1>
+            <h1> <img class="weather-icons" src="./assets/pressure.svg"> Pressure: {{ this.weather?.main.pressure }}hpa</h1>
+    </div> 
+       
+
+
+
+<div class="huuuge-greeting">
+        <p>Hello!</p>
+    </div>
+
+<div class="home-main-text">
+        <p>This is sample page, that I created in Angular8 to learn how to use this powerfull and awasome framework!</p><br>
+        <p>This is sample page, that I created in Angular8 to learn how to use this powerfull and awasome framework!</p><br>
+        <p>This is sample page, that I created in Angular8 to learn how to use this powerfull and awasome framework!</p><br>
+        <p>This is sample page, that I created in Angular8 to learn how to use this powerfull and awasome framework!</p><br>
+        <p>This is sample page, that I created in Angular8 to learn how to use this powerfull and awasome framework!</p><br>
+
+</div>
